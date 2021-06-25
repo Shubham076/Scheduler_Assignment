@@ -32,3 +32,4 @@
 
 
 ### Now open the browser and visit `localhost:3000` to view the app :)
+### View the project [here](class-scheduler.surge.sh)
