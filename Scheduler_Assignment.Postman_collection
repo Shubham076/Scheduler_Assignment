@@ -1,0 +1,547 @@
+{
+	"info": {
+		"_postman_id": "de8d1ab4-4c03-4148-8e72-07d322683ff3",
+		"name": "Scheduler_Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://scheduler-assignment.herokuapp.com/schedules",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://scheduler-assignment.herokuapp.com/schedules",
+					"protocol": "https",
+					"host": [
+						"scheduler-assignment",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"schedules"
+					]
+				},
+				"description": "this endpoint return all the schedules stores in the database and a calender for the frontend\r\n\r\nshape of data = {\r\n    \"message\":\"\",\r\n    \"data\":[],\r\n    \"calender\":[]\r\n}"
+			},
+			"response": [
+				{
+					"name": "https://scheduler-assignment.herokuapp.com/schedules",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://scheduler-assignment.herokuapp.com/schedules",
+							"protocol": "https",
+							"host": [
+								"scheduler-assignment",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"schedules"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "11503"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2cef-KWUw0nku1xCERhee0O500H6kCjE\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Jun 2021 08:19:14 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"success\",\n    \"data\": [\n        {\n            \"teacherName\": \"B\",\n            \"date\": \"March 1\",\n            \"timing\": \"1-2\",\n            \"batch\": \"2\",\n            \"id\": \"553553a0-1063-4fff-9cfa-a106a17becfa\"\n        },\n        {\n            \"teacherName\": \"A\",\n            \"date\": \"January 1\",\n            \"timing\": \"1-2\",\n            \"batch\": \"1\",\n            \"id\": \"64463ed2-41b2-434d-8337-318d176e1ac3\"\n        }\n    ],\n    \"calender\": [\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 1\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 31,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 1\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 31,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 31,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 31,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 31,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 31,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ],\n        [\n            [\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": -1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 1,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 2,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 3,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 4,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 5,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 6,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 7,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 8,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 9,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 10,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 11,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 12,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 13,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 14,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 15,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 16,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 17,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 18,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 19,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 20,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 21,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 22,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 23,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 24,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 25,\n                    \"noOfSchedules\": 0\n                }\n            ],\n            [\n                {\n                    \"no\": 26,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 27,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 28,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 29,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 30,\n                    \"noOfSchedules\": 0\n                },\n                {\n                    \"no\": 31,\n                    \"noOfSchedules\": 0\n                }\n            ]\n        ]\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "https://scheduler-assignment.herokuapp.com/schedules",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\":{\r\n        \"teacherName\":\"A\",\r\n        \"batch\":\"20\",\r\n        \"date\":\"March 15\",\r\n        \"timing\":\"2-3\",\r\n        \"id\":\"049e641f-8396-45e9-91e8-84da16be2f16\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://scheduler-assignment.herokuapp.com/schedule",
+					"protocol": "https",
+					"host": [
+						"scheduler-assignment",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"schedule"
+					]
+				},
+				"description": "Thi Endpoint saves the schedules in the database\r\nShape of data required\r\n{\r\n    \"data\":{\r\n        \"teacherName\":\"\",\r\n        \"timing\":\"\".\r\n        \"date\":\"\",\r\n        \"batch\":\"\",\r\n        \"id\":\"\"(UUIDV4)\r\n    }\r\n}"
+			},
+			"response": [
+				{
+					"name": "https://scheduler-assignment.herokuapp.com/schedules",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\":{\r\n        \"teacherName\":\"A\",\r\n        \"batch\":\"20\",\r\n        \"date\":\"March 15\",\r\n        \"timing\":\"2-3\",\r\n        \"id\":\"049e641f-8396-45e9-91e8-84da16be2f16\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://scheduler-assignment.herokuapp.com/schedule",
+							"protocol": "https",
+							"host": [
+								"scheduler-assignment",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"schedule"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"3c-R6U7wahOn6KdkHcGQL4oVv39SIo\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Jun 2021 08:22:04 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"success\",\n    \"data\": \"Schedule created successfully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://scheduler-assignment.herokuapp.com/schedules",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"teacherName\":\"A\",\r\n        \"date\":\"June 15\",\r\n        \"timing\":\"2-3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://scheduler-assignment.herokuapp.com/schedule/049e641f-8396-45e9-91e8-84da16be2f16",
+					"protocol": "https",
+					"host": [
+						"scheduler-assignment",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"schedule",
+						"049e641f-8396-45e9-91e8-84da16be2f16"
+					]
+				},
+				"description": "This endpoint update the schedule with id given in the parameters.\r\nShape of data required for this endpoint\r\n{\r\n    \"teacherName\":\"\",\r\n    \"date\":\"\",\r\n    \"timing\":\"\"\r\n}"
+			},
+			"response": [
+				{
+					"name": "https://scheduler-assignment.herokuapp.com/schedules",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"teacherName\":\"A\",\r\n        \"date\":\"June 15\",\r\n        \"timing\":\"2-3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://scheduler-assignment.herokuapp.com/schedule/049e641f-8396-45e9-91e8-84da16be2f16",
+							"protocol": "https",
+							"host": [
+								"scheduler-assignment",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"schedule",
+								"049e641f-8396-45e9-91e8-84da16be2f16"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"22-KN8hwUZi4URapceCwFjArsrZGWc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Jun 2021 08:23:49 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Successfully updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://scheduler-assignment.herokuapp.com/schedules",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://scheduler-assignment.herokuapp.com/schedule/049e641f-8396-45e9-91e8-84da16be2f16",
+					"protocol": "https",
+					"host": [
+						"scheduler-assignment",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"schedule",
+						"049e641f-8396-45e9-91e8-84da16be2f16"
+					]
+				},
+				"description": "This endpoint deletes the schedules with id provided in the query parameter"
+			},
+			"response": [
+				{
+					"name": "https://scheduler-assignment.herokuapp.com/schedules",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://scheduler-assignment.herokuapp.com/schedule/049e641f-8396-45e9-91e8-84da16be2f16",
+							"protocol": "https",
+							"host": [
+								"scheduler-assignment",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"schedule",
+								"049e641f-8396-45e9-91e8-84da16be2f16"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"22-6IoHKe6F3f/OkIETcx9tUl8GbxM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Jun 2021 08:24:13 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Successfully deleted\"\n}"
+				}
+			]
+		}
+	]
+}

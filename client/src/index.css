@@ -1,0 +1,64 @@
+*, * ::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    border: none;
+    outline: none;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.icon{
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    transform: scale(1);
+    transition: transform 0.2s ease-in;
+}
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.addbtn{
+    background-color: #FFC93C;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__left,.icon__right{
+    height: 2rem;
+    width: 2.5rem;
+}
+.icon__view{
+  margin: 0.7rem 0rem;
+}
+
+.schedule_headind{
+    color: #212121;
+    text-align: center;
+    font-weight: 400;
+    margin: 2rem;
+}
+
+.icon__pencil,.icon__trash{
+    fill: #bbb;
+}
+
+.icon__search{
+    margin-left: 1rem;
+    fill: #346751;
+}

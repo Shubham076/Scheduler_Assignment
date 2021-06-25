@@ -1,0 +1,26 @@
+.monthheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 2rem 0 3rem 0;
+}
+
+.monthheader__name{
+    width: 7rem;
+    font-size: 2rem;
+    color: #454043;
+}
+
+.search_btn{
+    padding: 1.2rem 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #346751;
+    color: #346751;
+    border-radius: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    cursor: pointer;
+}

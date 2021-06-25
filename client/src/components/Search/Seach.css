@@ -1,0 +1,33 @@
+.search__header{
+    text-align: center;
+    color: #212121;
+    margin: 2rem;
+    font-size: 2rem;
+}
+.input_errors{
+    color: red;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+.select{
+    height: 3rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+
+.select input{
+    width: 90%;
+    background-color: #ededed;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}

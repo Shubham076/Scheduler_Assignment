@@ -1,0 +1,46 @@
+  .input {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin: 1.8rem 0rem;
+      padding: 1rem;
+      position: relative;
+  }
+
+  .input__field {
+      border: none;
+      outline: none;
+      background: transparent;
+      border-bottom: 0.2rem solid #ccc;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.5rem;
+  }
+
+  .input__label {
+      position: absolute;
+      font-size: 1.45rem;
+      padding-left: 0.3rem;
+      font-weight: 500;
+      color: #212121;
+      top: -0.8rem;
+      transition: all 0.166s ease-in;
+  }
+
+  .input__field:focus {
+      border-color: #777;
+      border-width: 0.245rem;
+  }
+
+  .input__field:focus+.input__label {
+      color: #777;
+      padding-left: 0;
+      font-size: 1.2rem;
+      top: -2.5rem;
+  }
+
+  .move {
+      color: #777;
+      padding-left: 0;
+      font-size: 1.2rem;
+      top: -2.5rem;
+  }

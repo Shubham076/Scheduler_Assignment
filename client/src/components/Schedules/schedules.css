@@ -1,0 +1,23 @@
+.schedules{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.schedule__icons{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedules_empty{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.schedules_empty h1{
+    font-size: 2rem;
+    color: #212121;
+    font-weight: 600;
+}

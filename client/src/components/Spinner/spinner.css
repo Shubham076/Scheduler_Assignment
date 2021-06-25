@@ -1,0 +1,22 @@
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.room_spinner{
+    height: 5rem;
+    width: 5rem;
+    border: 0.5rem solid #ccc;
+    border-top-color: red;
+    border-radius: 50%;
+    margin:10rem auto;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    animation: rotate 1s linear infinite;
+}
